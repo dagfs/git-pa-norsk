@@ -17,21 +17,21 @@ Nedan följer tabeller över verb och substantiv relaterade till git,
 deras nuvarande bruk samt förslag på hur vi tillsammans kan bättra
 oss.
 
-| Verb        | Nuvarande bruk | Förslag       |
+| Verb        | Nåverende      | Forslag       |
 |-------------|----------------|---------------|
-| pull        | pulla          | rycka         |
-| push        | pusha          | knuffa        |
-| fetch       | fetcha         | hämta         |
-| branch      | brancha        | förgrena      |
-| commit      | commita        | förbinda      |
-| rebase      | rebasa         | ympa          |
-| merge       | merga          | sammanfoga    |
-| squash      | squasha        | mosa          |
-| stash       | stasha         | gömma         |
-| tag         | tagga          | märka         |
-| cherry-pick | cherry-picka   | plocka russin |
-| amend       | amenda         | rätta till    |
-| blame       | blamea         | klandra       |
+| pull        | pulle          | rycka         |
+| push        | pushe          | knuffa        |
+| fetch       | fetche         | hämta         |
+| branch      | branche        | förgrena      |
+| commit      | commite        | förbinda      |
+| rebase      | rebase         | ympa          |
+| merge       | merge          | sammanfoga    |
+| squash      | squashe        | mosa          |
+| stash       | stashe         | gömma         |
+| tag         | tagge          | märka         |
+| cherry-pick | cherry-picke   | plocka russin |
+| amend       | amende         | rätta till    |
+| blame       | blame          | klandra       |
 
 | Substantiv   | Nuvarande bruk | Förslag     |
 |--------------|----------------|-------------|
@@ -41,7 +41,7 @@ oss.
 | commit       | commit         | förbindelse |
 | pull request | pull request   | ryckbegäran |
 | stash        | stash          | gömma       |
-| tag          | tagg           | märke       |
+| tag          | tag            | märke       |
 
 ## Exempel
 
