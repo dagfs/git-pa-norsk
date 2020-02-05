@@ -1,6 +1,8 @@
-# Git på svenska
+# Git på norsk
 
 ## Introduktion
+
+Basert på [Git på svensk](https://github.com/bjorne/git-pa-svenska)
 
 Det dagliga språket för de olika kommandona i `git` (eller `jävel`) är
 på svenska ett enda stort svengelskakalas. Jag finner mig själv ofta
@@ -11,7 +13,7 @@ Detta dokument ämnar etablera en ren svensk jargong som kan användas
 på arbetsplatsen för att med fördel undvika pressade situationer med
 kollegor samt boskap.
 
-## Förslag
+## Forslag
 
 Nedan följer tabeller över verb och substantiv relaterade till git,
 deras nuvarande bruk samt förslag på hur vi tillsammans kan bättra
@@ -19,29 +21,41 @@ oss.
 
 | Verb        | Nåverende      | Forslag       |
 |-------------|----------------|---------------|
-| pull        | pulle          | rycka         |
-| push        | pushe          | knuffa        |
-| fetch       | fetche         | hämta         |
-| branch      | branche        | förgrena      |
-| commit      | commite        | förbinda      |
-| rebase      | rebase         | ympa          |
-| merge       | merge          | sammanfoga    |
-| squash      | squashe        | mosa          |
-| stash       | stashe         | gömma         |
-| tag         | tagge          | märka         |
-| cherry-pick | cherry-picke   | plocka russin |
-| amend       | amende         | rätta till    |
-| blame       | blame          | klandra       |
+| add         | adde           | leggtil       |
+| pull        | pulle          | dra         |
+| push        | pushe          | dytte        |
+| fetch       | fetche         | hente         |
+| branch      | branche        | forgrene      |
+| commit      | commite        | forplikte      |
+| rebase      | rebase         | omskrive          |
+| merge       | merge          | sammenslå    |
+| squash      | squashe        | mose          |
+| stash       | stashe         | skoffe         |
+| tag         | tagge          | merke         |
+| cherry-pick | cherry-picke   | plukke |
+| amend       | amende         | forbedre    |
+| blame       | blame          | klandre       |
+| fork       | forke          | gafle       |
+| checkout       |           | flørte       |
+| reset       |           | tilbakestille       |
+| force       |           | tvinge       |
+| pop       |           | løfte       |
+| peek       |           | kikke       |
 
 | Substantiv   | Nuvarande bruk | Förslag     |
 |--------------|----------------|-------------|
-| git          | git            | jävel       |
-| repository   | repo           | förvaring   |
+| git          | git            | dust       |
+| repository   | repo           | oppbevaringssted   |
 | branch       | branch         | gren        |
-| commit       | commit         | förbindelse |
-| pull request | pull request   | ryckbegäran |
-| stash        | stash          | gömma       |
-| tag          | tag            | märke       |
+| commit       | commit         | forpliktelse |
+| pull request | pull request   | draforespørsel |
+| stash        | stash          | skuffen       |
+| tag          | tag            | merk       |
+| master          |             | mester       |
+| fork          |             | gaffel       |
+| origin          |             | opphav       |
+| conflict          |             | strid       |
+| head          |             | hode       |
 
 ## Exempel
 
@@ -77,3 +91,7 @@ kommandon ändrar din `~/.gitconfig` och kommer att verka globalt.
     git config --global alias.mark tag
 
     alias jävel=git
+
+## TODO
+- [ ] Oversette teksten til norsk
+- [ ] legge til config og alias
